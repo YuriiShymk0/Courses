@@ -14,6 +14,7 @@ namespace homeWork3
                 Console.WriteLine(string.Format("Your current hp: {0}", currentHp));
                 Console.Write("Enter number or write \"EXIT\" to end game: ");
                 string choosen = Console.ReadLine();
+                Console.WriteLine();
                 if (!int.TryParse(choosen, out int choosenNumber))
                 {
                     if (choosen.ToUpper() == "EXIT")
