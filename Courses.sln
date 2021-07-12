@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeWork1", "homeWork1\homeWork1.csproj", "{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeWork3", "homeWork3\homeWork3.csproj", "{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeWork2", "homeWork2\homeWork2.csproj", "{0E8D912E-0353-419A-96D7-33AF4019867D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8D912E-0353-419A-96D7-33AF4019867D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8D912E-0353-419A-96D7-33AF4019867D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8D912E-0353-419A-96D7-33AF4019867D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8D912E-0353-419A-96D7-33AF4019867D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {099183CD-DB1A-4D79-85BF-F8219EC3D1EB}
+	EndGlobalSection
+EndGlobal
