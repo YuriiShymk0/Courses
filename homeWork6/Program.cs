@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace homeWork6
 {
@@ -6,8 +7,8 @@ namespace homeWork6
     {
         static void Main(string[] args)
         {
-            int[] array = { 2, 1, 2, 2, 2 };
-            Console.WriteLine("Hello World!");
+            Classroom classroom = new Classroom();
+            classroom.WriteAllHomework(classroom.GetStudentsFromFile());
         }
     }
 }

@@ -1,0 +1,6 @@
+John 4
+Ivan 3
+Victor 3
+Igor 3
+Lisa 2
+Ann 4
