@@ -15,20 +15,12 @@ namespace Snake
 
         public static bool operator ==(CurrentPlace a, CurrentPlace b)
         {
-            if (a.x == b.x && a.y == b.y)
-            {
-                return true;
-            }
-            else return false;
+            return (a.x == b.x && a.y == b.y);
         }
 
         public static bool operator !=(CurrentPlace a, CurrentPlace b)
         {
-            if (a.x != b.x || a.y != b.y)
-            {
-                return true;
-            }
-            else return false;
+            return a.x != b.x || a.y != b.y;
         }
 
         public void Show() => ShowCurrentThePlace(ElementForWall);

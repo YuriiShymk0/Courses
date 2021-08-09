@@ -15,7 +15,7 @@ namespace Snake
         {
             random = rand;
         }
-
+           
         public AddFoodToBoard(int x, int y, char ch)
         {
             this.x = x;

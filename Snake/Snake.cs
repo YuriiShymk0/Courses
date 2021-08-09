@@ -11,19 +11,16 @@ namespace Snake
         private readonly int step = 1;
         private CurrentPlace tail;
         private CurrentPlace head;
-
         bool rotation = true;
 
         public Snake(int x, int y, int length)
         {
             direction = Way.RIGHT;
-
             snake = new List<CurrentPlace>();
             for (int i = x - length; i < x; i++)
             {
                 CurrentPlace p = (i, y, '$');
                 snake.Add(p);
-
                 p.Show();
             }
         }
@@ -34,13 +31,10 @@ namespace Snake
         {
             head = GetNextPoint();
             snake.Add(head);
-
             tail = snake.First();
             snake.Remove(tail);
-
             tail.Clear();
             head.Show();
-
             rotation = true;
         }
 
