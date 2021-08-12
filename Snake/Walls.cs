@@ -35,7 +35,7 @@ namespace Snake
             }
         }
 
-        public bool Сollision(CurrentPlace currentplace)
+        public bool Сollision(CurrentPlace currentplace)   
         {
             foreach (var elementOfWall in wall)
             {

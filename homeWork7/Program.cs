@@ -6,7 +6,10 @@ namespace homeWork7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var b = new B(); var c = new C();
+            ((A)c).PrintMessage();
+            ((A)b).PrintMessage();
+            C.PrintMessage();
         }
     }
 }

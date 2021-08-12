@@ -37,6 +37,12 @@ namespace Snake
                 if (Console.KeyAvailable)
                 {
                     ConsoleKeyInfo key = Console.ReadKey();
+                    if (key.Key != ConsoleKey.UpArrow)
+                    {
+                        var cursor = Console.GetCursorPosition();
+                        Console.SetCursorPosition(cursor.Left - 1,cursor.Top);
+                        Console.Write(' ');
+                    }
                     snake.Rotation(key.Key);
                 }
             }
@@ -48,7 +54,6 @@ namespace Snake
             {
                 time.Dispose();
                 GameOver();
-
             }
             else if (snake.Eat(addfood.food))
             {
@@ -64,6 +69,7 @@ namespace Snake
         {
             Console.Clear();
             Console.WriteLine("Game Over");
+            Environment.Exit(0);
         }
     }
 
