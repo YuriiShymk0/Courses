@@ -6,6 +6,14 @@ namespace homeWork5
 {
     class Program
     {
+        /*
+         * Make a program that:
+         * 0️. Asks the user for the names of N computer games and writes them to an array.
+         * 1. Make a method that will sort the array of these games in reverse order (from Z to A)
+         * 2. Output from y only those names that are massaged by some letter X.
+         * 3. All these instructions are applied in a cycle.
+         * P.S. Values ​​for N and X must be passed to programs as a command line parameter.
+         */
         internal static void Main(string[] arrayForSort)
         {
             arrayForSort = GetParamsFromArguments(arrayForSort, out char cshoosenLetter);
@@ -53,7 +61,6 @@ namespace homeWork5
         {
             Console.WriteLine("----------------------------------------------------");
         }
-
         private static void ShowCollection(string[] array, string message = "")
         {
             Console.WriteLine(message);
@@ -62,7 +69,6 @@ namespace homeWork5
                 Console.WriteLine(item);
             }
         }
-
         private static void PressEnterToContinue(string message = "Press Enter to continue! ")
         {
             Console.WriteLine(message);

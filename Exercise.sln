@@ -3,21 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeWork1", "homeWork1\homeWork1.csproj", "{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First_game", "homeWork3\First_game.csproj", "{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeWork3", "homeWork3\homeWork3.csproj", "{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Input_and_output", "homeWork2\Input_and_output.csproj", "{0E8D912E-0353-419A-96D7-33AF4019867D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeWork2", "homeWork2\homeWork2.csproj", "{0E8D912E-0353-419A-96D7-33AF4019867D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operation_with_number(like_caclulation)", "homeWork4\Operation_with_number(like_caclulation).csproj", "{5B55989A-4B58-4F0D-A41B-B452DDD5DE24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeWork4", "homeWork4\homeWork4.csproj", "{5B55989A-4B58-4F0D-A41B-B452DDD5DE24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operation_with_Array", "homeWork5\Operation_with_Array.csproj", "{EA5D407C-B6E4-4BA1-874B-D8C6ABB20FC2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeWork5", "homeWork5\homeWork5.csproj", "{EA5D407C-B6E4-4BA1-874B-D8C6ABB20FC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work_with_Class", "homeWork6\Work_with_Class.csproj", "{8B055E2C-14E1-4DEA-BF85-533A15E1436C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homeWork6", "homeWork6\homeWork6.csproj", "{8B055E2C-14E1-4DEA-BF85-533A15E1436C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "homeWork7\Polymorphism.csproj", "{2399D3A4-5655-4F4F-BE91-C4C15C0FD6BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homeWork7", "homeWork7\homeWork7.csproj", "{2399D3A4-5655-4F4F-BE91-C4C15C0FD6BB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{BD8475B0-5BE2-418B-9D5D-41753A4A12CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snake", "Snake\Snake.csproj", "{BD8475B0-5BE2-418B-9D5D-41753A4A12CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2EB5B8E-0FFA-4680-BE20-AB2AEA7AB998}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU

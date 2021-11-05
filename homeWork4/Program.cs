@@ -1,10 +1,18 @@
 ﻿using System;
 using System.Text;
 
-namespace homeWork4
+namespace CalculationTask
 {
     class Program
     {
+        /*
+         * Write 4 methods, each for the operations of addition, subtraction, multiplication and division. 
+         * Methods must take two numbers and return the result of the action.
+         * Write a method, take 2 numbers and use the out parameters to return the difference and the sum of the numbers.
+         * The program should ask the user to enter two numbers and the action to be performed. 
+         * After the user enters all the input data, the program should display the result on the screen.
+         * Write a method that will use recursion to find the factorial of a number. The method takes int and also returns int
+         */
         static void Main()
         {
             MainMenu();
@@ -69,7 +77,6 @@ namespace homeWork4
         {
             return number1 - number2;
         }
-
         private static double Division(double number1, double number2)
         {
             while (number2 == 0)
@@ -120,7 +127,6 @@ namespace homeWork4
             Console.WriteLine(message);
             Console.ReadLine();
         }
-
         private static int Factorial(int number)
         {
             while (number < 0)
