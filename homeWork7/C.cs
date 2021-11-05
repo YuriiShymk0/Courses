@@ -8,7 +8,7 @@ namespace homeWork7
 { 
     class C : A
     {
-        public static void PrintMessage()
+        public static new void PrintMessage()
         {
             Console.Write("C");
         }
