@@ -10,8 +10,8 @@ namespace Courses
              * with a large number of decimal places.
              */
             Console.WriteLine("Task 1:");
-            double value1 = getDoubleFromConsole();
-            double value2 = getDoubleFromConsole(true);
+            double value1 = GetDoubleFromConsole();
+            double value2 = GetDoubleFromConsole(true);
             double result = value1 / value2;
 
             /*
@@ -33,12 +33,12 @@ namespace Courses
             */
             Console.WriteLine("\nTask 3:");
             long phonenumber = 198765432110;
-            showPhoneNumber(phonenumber.ToString("+# (###) ###-##-##"));
+            ShowPhoneNumber(phonenumber.ToString("+# (###) ###-##-##"));
             Console.WriteLine(string.Format("Your phone number is: {0:+## (###) ###-##-##}", phonenumber));
             Console.WriteLine(string.Format("Your phone number is: {0:+00 (000) 000-00-00}", phonenumber));
         }
 
-        private static double getDoubleFromConsole(bool nullCheck = false)
+        private static double GetDoubleFromConsole(bool nullCheck = false)
         {
             while (true)
             {
@@ -63,7 +63,7 @@ namespace Courses
             }
         }
 
-        private static void showPhoneNumber(string phoneNumber)
+        private static void ShowPhoneNumber(string phoneNumber)
         {
             Console.WriteLine(string.Format("Your phone number is: {0:+## (###) ###-##-##}", phoneNumber));
         }
