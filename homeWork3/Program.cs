@@ -6,6 +6,7 @@ namespace FIrstGame
     {
         static void Main()
         {
+
             /*
              * Some game on switch-case
              */
