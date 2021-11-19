@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First_game", "homeWork3\First_game.csproj", "{97BD86A2-11E7-49B2-9B6E-192EBF96E3CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Input_and_output", "homeWork2\Input_and_output.csproj", "{0E8D912E-0353-419A-96D7-33AF4019867D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputAndOutput", "homeWork2\InputAndOutput.csproj", "{0E8D912E-0353-419A-96D7-33AF4019867D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operation_with_number(like_caclulation)", "homeWork4\Operation_with_number(like_caclulation).csproj", "{5B55989A-4B58-4F0D-A41B-B452DDD5DE24}"
 EndProject
