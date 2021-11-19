@@ -6,13 +6,17 @@ namespace Courses
     {
         static void Main()
         {
-            //1 task
+            /* Make the operation of dividing two numbers (double) so that the result is a number 
+             * with a large number of decimal places.
+             */
             Console.WriteLine("Task 1:");
-            double value1 = getDoubleFromConsole();
-            double value2 = getDoubleFromConsole(true);
+            double value1 = GetDoubleFromConsole();
+            double value2 = GetDoubleFromConsole(true);
             double result = value1 / value2;
 
-            //2 task
+            /*
+            * Display this number in a console so that only two decimal places are displayed (suggest several solutions)
+            */
             Console.WriteLine("\nTask 2:");
             Console.WriteLine("First variant of division: " + Math.Round(result, 2));
             Console.WriteLine("Second variant of division: " + string.Format("{0:0.00}", result));
@@ -21,15 +25,20 @@ namespace Courses
             //Without using a variable "result"
             Console.WriteLine("Result of division without using a third variable: " + Math.Round(value1 / value2, 2));
 
-            //3 task
+            /*
+            * Make a variable whose value will be equal to 19876543210. 
+            * Print this variable to the console in the format of the phone number: 
+            * +19 (876) 543-21-10, but so that it is not hard-coded, ie option:
+            * Console.WriteLine ("+19 (876) 543-21-10 ") is not suitable.
+            */
             Console.WriteLine("\nTask 3:");
             long phonenumber = 198765432110;
-            showPhoneNumber(phonenumber.ToString("+# (###) ###-##-##"));
+            ShowPhoneNumber(phonenumber.ToString("+# (###) ###-##-##"));
             Console.WriteLine(string.Format("Your phone number is: {0:+## (###) ###-##-##}", phonenumber));
             Console.WriteLine(string.Format("Your phone number is: {0:+00 (000) 000-00-00}", phonenumber));
         }
 
-        private static double getDoubleFromConsole(bool nullCheck = false)
+        private static double GetDoubleFromConsole(bool nullCheck = false)
         {
             while (true)
             {
@@ -54,7 +63,7 @@ namespace Courses
             }
         }
 
-        private static void showPhoneNumber(string phoneNumber)
+        private static void ShowPhoneNumber(string phoneNumber)
         {
             Console.WriteLine(string.Format("Your phone number is: {0:+## (###) ###-##-##}", phoneNumber));
         }

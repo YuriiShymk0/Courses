@@ -1,11 +1,15 @@
 ﻿using System;
 
-namespace homeWork3
+namespace FIrstGame
 {
     class Program
     {
         static void Main()
         {
+
+            /*
+             * Some game on switch-case
+             */
             bool continueGame = true;
             int currentHp = 100;
             while (continueGame)
