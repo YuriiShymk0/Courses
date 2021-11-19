@@ -1,7 +1,6 @@
 ﻿using System;
 
-
-namespace homeWork7
+namespace Polymorphism
 {
     class B : A
     {

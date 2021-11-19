@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace homeWork7
+namespace Polymorphism
 {
     internal class A
     {
